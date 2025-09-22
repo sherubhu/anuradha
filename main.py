@@ -2,11 +2,13 @@
 import os
 
 from flask import Flask
+from flask_cors import CORS
 from birth_chart_endpoint import birth_chart_bp
 from synastry_endpoint import synastry_bp
 from transit_endpoint import transit_bp
 
 app = Flask(__name__)
+CORS(app)
 
 app.register_blueprint(birth_chart_bp)
 app.register_blueprint(synastry_bp)
