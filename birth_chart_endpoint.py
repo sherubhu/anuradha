@@ -1,3 +1,4 @@
+
 import os
 from flask import Blueprint, request, jsonify
 from birth_chart_kerykeion import generate_birth_report, generate_birth_svg
@@ -23,7 +24,7 @@ def create_birth_report():
     except (KeyError, ValueError) as e:
         return jsonify({'error': f'Missing or invalid parameter: {e}'}), 400
 
-    zodiac_type = data.get('zodiac_type', 'Tropical')
+    zodiac_type = data.get('zodiac_type', 'Tropic')
     sidereal_mode = data.get('sidereal_mode')
 
     report_data = generate_birth_report(
@@ -61,7 +62,7 @@ def create_birth_svg():
     except (KeyError, ValueError) as e:
         return jsonify({'error': f'Missing or invalid parameter: {e}'}), 400
 
-    zodiac_type = data.get('zodiac_type', 'Tropical')
+    zodiac_type = data.get('zodiac_type', 'Tropic')
     sidereal_mode = data.get('sidereal_mode')
 
     generate_birth_svg(
