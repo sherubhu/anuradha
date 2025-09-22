@@ -1,0 +1,47 @@
+
++- Kerykeion report for Jane Doe -+
++----------+------+--------------+-----------+----------+
+| Date     | Time | Location     | Longitude | Latitude |
++----------+------+--------------+-----------+----------+
+| 1/1/1990 | 12:0 | New York, GB | -74.006   | 40.7128  |
++----------+------+--------------+-----------+----------+
++-----------------+------+-------+------+----------------+
+| Planet          | Sign | Pos.  | Ret. | House          |
++-----------------+------+-------+------+----------------+
+| Sun             | Cap  | 11.03 | -    | Ninth_House    |
+| Moon            | Pis  | 6.08  | -    | Twelfth_House  |
+| Mercury         | Cap  | 25.61 | R    | Tenth_House    |
+| Venus           | Aqu  | 6.19  | R    | Eleventh_House |
+| Mars            | Sag  | 10.15 | -    | Eighth_House   |
+| Jupiter         | Can  | 5.12  | R    | Third_House    |
+| Saturn          | Cap  | 15.68 | -    | Tenth_House    |
+| Uranus          | Cap  | 5.8   | -    | Ninth_House    |
+| Neptune         | Cap  | 12.05 | -    | Tenth_House    |
+| Pluto           | Sco  | 17.1  | -    | Seventh_House  |
+| Mean_Node       | Aqu  | 18.42 | R    | Eleventh_House |
+| True_Node       | Aqu  | 16.87 | -    | Eleventh_House |
+| Mean_South_Node | Leo  | 18.42 | R    | Fifth_House    |
+| True_South_Node | Leo  | 16.87 | -    | Fifth_House    |
+| Chiron          | Can  | 13.8  | R    | Fourth_House   |
+| Mean_Lilith     | Sco  | 6.49  | -    | Seventh_House  |
+| Ascendant       | Ari  | 20.66 | -    | First_House    |
+| Descendant      | Lib  | 20.66 | -    | Seventh_House  |
+| Medium_Coeli    | Cap  | 11.11 | -    | Tenth_House    |
+| Imum_Coeli      | Can  | 11.11 | -    | Fourth_House   |
++-----------------+------+-------+------+----------------+
++----------------+------+----------+
+| House          | Sign | Position |
++----------------+------+----------+
+| First_House    | Ari  | 20.66    |
+| Second_House   | Tau  | 26.08    |
+| Third_House    | Gem  | 20.12    |
+| Fourth_House   | Can  | 11.11    |
+| Fifth_House    | Leo  | 3.92     |
+| Sixth_House    | Vir  | 4.47     |
+| Seventh_House  | Lib  | 20.66    |
+| Eighth_House   | Sco  | 26.08    |
+| Ninth_House    | Sag  | 20.12    |
+| Tenth_House    | Cap  | 11.11    |
+| Eleventh_House | Aqu  | 3.92     |
+| Twelfth_House  | Pis  | 4.47     |
++----------------+------+----------+

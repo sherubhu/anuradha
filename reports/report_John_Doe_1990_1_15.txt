@@ -1,0 +1,47 @@
+
++- Kerykeion report for John Doe -+
++-----------+-------+--------------+-----------+----------+
+| Date      | Time  | Location     | Longitude | Latitude |
++-----------+-------+--------------+-----------+----------+
+| 15/1/1990 | 14:30 | New York, GB | -74.006   | 40.7128  |
++-----------+-------+--------------+-----------+----------+
++-----------------+------+-------+------+---------------+
+| Planet          | Sign | Pos.  | Ret. | House         |
++-----------------+------+-------+------+---------------+
+| Sun             | Cap  | 25.4  | -    | Eighth_House  |
+| Moon            | Vir  | 21.39 | -    | Fourth_House  |
+| Mercury         | Cap  | 11.13 | R    | Seventh_House |
+| Venus           | Aqu  | 0.5   | R    | Eighth_House  |
+| Mars            | Sag  | 20.13 | -    | Sixth_House   |
+| Jupiter         | Can  | 3.33  | R    | First_House   |
+| Saturn          | Cap  | 17.35 | -    | Eighth_House  |
+| Uranus          | Cap  | 6.63  | -    | Seventh_House |
+| Neptune         | Cap  | 12.58 | -    | Seventh_House |
+| Pluto           | Sco  | 17.43 | -    | Sixth_House   |
+| Mean_Node       | Aqu  | 17.68 | R    | Ninth_House   |
+| True_Node       | Aqu  | 16.59 | -    | Ninth_House   |
+| Mean_South_Node | Leo  | 17.68 | R    | Third_House   |
+| True_South_Node | Leo  | 16.59 | -    | Third_House   |
+| Chiron          | Can  | 12.84 | R    | First_House   |
+| Mean_Lilith     | Sco  | 8.07  | -    | Fifth_House   |
+| Ascendant       | Gem  | 25.7  | -    | First_House   |
+| Descendant      | Sag  | 25.7  | -    | Seventh_House |
+| Medium_Coeli    | Pis  | 1.46  | -    | Tenth_House   |
+| Imum_Coeli      | Vir  | 1.46  | -    | Fourth_House  |
++-----------------+------+-------+------+---------------+
++----------------+------+----------+
+| House          | Sign | Position |
++----------------+------+----------+
+| First_House    | Gem  | 25.7     |
+| Second_House   | Can  | 16.03    |
+| Third_House    | Leo  | 6.7      |
+| Fourth_House   | Vir  | 1.46     |
+| Fifth_House    | Lib  | 4.33     |
+| Sixth_House    | Sco  | 15.85    |
+| Seventh_House  | Sag  | 25.7     |
+| Eighth_House   | Cap  | 16.03    |
+| Ninth_House    | Aqu  | 6.7      |
+| Tenth_House    | Pis  | 1.46     |
+| Eleventh_House | Ari  | 4.33     |
+| Twelfth_House  | Tau  | 15.85    |
++----------------+------+----------+

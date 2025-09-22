@@ -1,0 +1,47 @@
+
++- Kerykeion report for Jane Doe -+
++-----------+------+------------+-----------+----------+
+| Date      | Time | Location   | Longitude | Latitude |
++-----------+------+------------+-----------+----------+
+| 20/5/1995 | 8:0  | London, GB | -0.1278   | 51.5074  |
++-----------+------+------------+-----------+----------+
++-----------------+------+-------+------+----------------+
+| Planet          | Sign | Pos.  | Ret. | House          |
++-----------------+------+-------+------+----------------+
+| Sun             | Tau  | 28.81 | -    | Eleventh_House |
+| Moon            | Aqu  | 13.71 | -    | Eighth_House   |
+| Mercury         | Gem  | 17.7  | -    | Twelfth_House  |
+| Venus           | Tau  | 4.02  | -    | Eleventh_House |
+| Mars            | Leo  | 27.63 | -    | Third_House    |
+| Jupiter         | Sag  | 12.04 | R    | Sixth_House    |
+| Saturn          | Pis  | 22.97 | -    | Tenth_House    |
+| Uranus          | Aqu  | 0.38  | R    | Eighth_House   |
+| Neptune         | Cap  | 25.42 | R    | Seventh_House  |
+| Pluto           | Sco  | 29.24 | R    | Fifth_House    |
+| Mean_Node       | Sco  | 4.39  | R    | Fifth_House    |
+| True_Node       | Sco  | 5.39  | R    | Fifth_House    |
+| Mean_South_Node | Tau  | 4.39  | R    | Eleventh_House |
+| True_South_Node | Tau  | 5.39  | R    | Eleventh_House |
+| Chiron          | Vir  | 19.99 | -    | Fourth_House   |
+| Mean_Lilith     | Gem  | 15.28 | -    | Twelfth_House  |
+| Ascendant       | Can  | 13.11 | -    | First_House    |
+| Descendant      | Cap  | 13.11 | -    | Seventh_House  |
+| Medium_Coeli    | Pis  | 10.87 | -    | Tenth_House    |
+| Imum_Coeli      | Vir  | 10.87 | -    | Fourth_House   |
++-----------------+------+-------+------+----------------+
++----------------+------+----------+
+| House          | Sign | Position |
++----------------+------+----------+
+| First_House    | Can  | 13.11    |
+| Second_House   | Can  | 28.8     |
+| Third_House    | Leo  | 16.83    |
+| Fourth_House   | Vir  | 10.87    |
+| Fifth_House    | Lib  | 16.34    |
+| Sixth_House    | Sag  | 3.43     |
+| Seventh_House  | Cap  | 13.11    |
+| Eighth_House   | Cap  | 28.8     |
+| Ninth_House    | Aqu  | 16.83    |
+| Tenth_House    | Pis  | 10.87    |
+| Eleventh_House | Ari  | 16.34    |
+| Twelfth_House  | Gem  | 3.43     |
++----------------+------+----------+

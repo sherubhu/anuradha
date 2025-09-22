@@ -1,0 +1,47 @@
+
++- Kerykeion report for Johnny Depp -+
++----------+------+---------------+-----------+----------+
+| Date     | Time | Location      | Longitude | Latitude |
++----------+------+---------------+-----------+----------+
+| 9/6/1963 | 8:44 | Owensboro, GB | -87.113   | 37.77    |
++----------+------+---------------+-----------+----------+
++-----------------+------+-------+------+----------------+
+| Planet          | Sign | Pos.  | Ret. | House          |
++-----------------+------+-------+------+----------------+
+| Sun             | Tau  | 24.67 | -    | Eleventh_House |
+| Moon            | Sag  | 19.95 | -    | Sixth_House    |
+| Mercury         | Tau  | 1.91  | -    | Eleventh_House |
+| Venus           | Tau  | 2.7   | -    | Eleventh_House |
+| Mars            | Leo  | 9.86  | -    | Second_House   |
+| Jupiter         | Pis  | 20.63 | -    | Ninth_House    |
+| Saturn          | Cap  | 29.74 | R    | Eighth_House   |
+| Uranus          | Leo  | 8.23  | -    | Second_House   |
+| Neptune         | Lib  | 20.07 | R    | Fourth_House   |
+| Pluto           | Leo  | 16.29 | -    | Second_House   |
+| Mean_Node       | Gem  | 28.89 | R    | Twelfth_House  |
+| True_Node       | Gem  | 27.29 | R    | Twelfth_House  |
+| Mean_South_Node | Sag  | 28.89 | R    | Sixth_House    |
+| True_South_Node | Sag  | 27.29 | R    | Sixth_House    |
+| Chiron          | Aqu  | 21.54 | -    | Eighth_House   |
+| Mean_Lilith     | Lib  | 12.27 | -    | Fourth_House   |
+| Ascendant       | Can  | 7.01  | -    | First_House    |
+| Descendant      | Cap  | 7.01  | -    | Seventh_House  |
+| Medium_Coeli    | Pis  | 24.12 | -    | Tenth_House    |
+| Imum_Coeli      | Vir  | 24.12 | -    | Fourth_House   |
++-----------------+------+-------+------+----------------+
++----------------+------+----------+
+| House          | Sign | Position |
++----------------+------+----------+
+| First_House    | Can  | 7.01     |
+| Second_House   | Can  | 28.01    |
+| Third_House    | Leo  | 23.06    |
+| Fourth_House   | Vir  | 24.12    |
+| Fifth_House    | Sco  | 0.2      |
+| Sixth_House    | Sag  | 5.91     |
+| Seventh_House  | Cap  | 7.01     |
+| Eighth_House   | Cap  | 28.01    |
+| Ninth_House    | Aqu  | 23.06    |
+| Tenth_House    | Pis  | 24.12    |
+| Eleventh_House | Tau  | 0.2      |
+| Twelfth_House  | Gem  | 5.91     |
++----------------+------+----------+
