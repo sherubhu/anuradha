@@ -1,47 +1,47 @@
 
-+- Kerykeion report for John Doe -+
-+-----------+-------+--------------+-----------+----------+
-| Date      | Time  | Location     | Longitude | Latitude |
-+-----------+-------+--------------+-----------+----------+
-| 15/1/1990 | 10:30 | New York, GB | -74.006   | 40.7128  |
-+-----------+-------+--------------+-----------+----------+
-+-----------------+------+-------+------+----------------+
-| Planet          | Sign | Pos.  | Ret. | House          |
-+-----------------+------+-------+------+----------------+
-| Sun             | Cap  | 25.23 | -    | Eleventh_House |
-| Moon            | Vir  | 19.32 | -    | Sixth_House    |
-| Mercury         | Cap  | 11.24 | R    | Tenth_House    |
-| Venus           | Aqu  | 0.6   | R    | Eleventh_House |
-| Mars            | Sag  | 20.01 | -    | Ninth_House    |
-| Jupiter         | Can  | 3.35  | R    | Fourth_House   |
-| Saturn          | Cap  | 17.33 | -    | Tenth_House    |
-| Uranus          | Cap  | 6.62  | -    | Tenth_House    |
-| Neptune         | Cap  | 12.57 | -    | Tenth_House    |
-| Pluto           | Sco  | 17.43 | -    | Eighth_House   |
-| Mean_Node       | Aqu  | 17.69 | R    | Eleventh_House |
-| True_Node       | Aqu  | 16.58 | -    | Eleventh_House |
-| Mean_South_Node | Leo  | 17.69 | R    | Fifth_House    |
-| True_South_Node | Leo  | 16.58 | -    | Fifth_House    |
-| Chiron          | Can  | 12.85 | R    | Fourth_House   |
-| Mean_Lilith     | Sco  | 8.05  | -    | Seventh_House  |
-| Ascendant       | Ari  | 5.76  | -    | First_House    |
-| Descendant      | Lib  | 5.76  | -    | Seventh_House  |
-| Medium_Coeli    | Cap  | 3.04  | -    | Tenth_House    |
-| Imum_Coeli      | Can  | 3.04  | -    | Fourth_House   |
-+-----------------+------+-------+------+----------------+
++- Kerykeion report for test_user_456 -+
++-----------+------+--------------+-----------+----------+
+| Date      | Time | Location     | Longitude | Latitude |
++-----------+------+--------------+-----------+----------+
+| 15/1/1990 | 12:0 | New York, GB | -74.006   | 40.7128  |
++-----------+------+--------------+-----------+----------+
++-----------------+------+-------+------+---------------+
+| Planet          | Sign | Pos.  | Ret. | House         |
++-----------------+------+-------+------+---------------+
+| Sun             | Cap  | 25.29 | -    | Tenth_House   |
+| Moon            | Vir  | 20.1  | -    | Fifth_House   |
+| Mercury         | Cap  | 11.2  | R    | Ninth_House   |
+| Venus           | Aqu  | 0.56  | R    | Tenth_House   |
+| Mars            | Sag  | 20.06 | -    | Eighth_House  |
+| Jupiter         | Can  | 3.34  | R    | Third_House   |
+| Saturn          | Cap  | 17.34 | -    | Ninth_House   |
+| Uranus          | Cap  | 6.63  | -    | Ninth_House   |
+| Neptune         | Cap  | 12.57 | -    | Ninth_House   |
+| Pluto           | Sco  | 17.43 | -    | Seventh_House |
+| Mean_Node       | Aqu  | 17.68 | R    | Tenth_House   |
+| True_Node       | Aqu  | 16.59 | -    | Tenth_House   |
+| Mean_South_Node | Leo  | 17.68 | R    | Fourth_House  |
+| True_South_Node | Leo  | 16.59 | -    | Fourth_House  |
+| Chiron          | Can  | 12.85 | R    | Third_House   |
+| Mean_Lilith     | Sco  | 8.06  | -    | Sixth_House   |
+| Ascendant       | Tau  | 12.09 | -    | First_House   |
+| Descendant      | Sco  | 12.09 | -    | Seventh_House |
+| Medium_Coeli    | Cap  | 23.99 | -    | Tenth_House   |
+| Imum_Coeli      | Can  | 23.99 | -    | Fourth_House  |
++-----------------+------+-------+------+---------------+
 +----------------+------+----------+
 | House          | Sign | Position |
 +----------------+------+----------+
-| First_House    | Ari  | 5.76     |
-| Second_House   | Tau  | 15.65    |
-| Third_House    | Gem  | 11.69    |
-| Fourth_House   | Can  | 3.04     |
-| Fifth_House    | Can  | 24.9     |
-| Sixth_House    | Leo  | 22.75    |
-| Seventh_House  | Lib  | 5.76     |
-| Eighth_House   | Sco  | 15.65    |
-| Ninth_House    | Sag  | 11.69    |
-| Tenth_House    | Cap  | 3.04     |
-| Eleventh_House | Cap  | 24.9     |
-| Twelfth_House  | Aqu  | 22.75    |
+| First_House    | Tau  | 12.09    |
+| Second_House   | Gem  | 11.08    |
+| Third_House    | Can  | 2.91     |
+| Fourth_House   | Can  | 23.99    |
+| Fifth_House    | Leo  | 18.96    |
+| Sixth_House    | Vir  | 24.03    |
+| Seventh_House  | Sco  | 12.09    |
+| Eighth_House   | Sag  | 11.08    |
+| Ninth_House    | Cap  | 2.91     |
+| Tenth_House    | Cap  | 23.99    |
+| Eleventh_House | Aqu  | 18.96    |
+| Twelfth_House  | Pis  | 24.03    |
 +----------------+------+----------+

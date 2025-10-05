@@ -76,10 +76,8 @@ class TestAPI(unittest.TestCase):
         response = self.app.post('/synastry/svg', data=json.dumps(data), content_type='application/json')
         self.assertEqual(response.status_code, 200)
 
-    def test_synastry_report(self):
+    def test_synastry_aspects(self):
         data = {
-            "request_id": "synastry_test_1",
-            "user_id": "user_test_1",
             "person1": {
                 "name": "person1",
                 "year": 1988,
@@ -105,43 +103,40 @@ class TestAPI(unittest.TestCase):
                 "city": "Los Angeles"
             }
         }
-        response = self.app.post('/synastry/report', data=json.dumps(data), content_type='application/json')
+        response = self.app.post('/synastry/aspects', data=json.dumps(data), content_type='application/json')
         self.assertEqual(response.status_code, 200)
+        response_data = json.loads(response.data)
+        self.assertIn("aspects", response_data)
+        self.assertIsInstance(response_data["aspects"], list)
 
     def test_transit_svg(self):
         data = {
-            "request_id": "transit_test_1",
-            "user_id": "user_test_1",
-            "name": "person1",
-            "year": 1988,
-            "month": 5,
-            "day": 10,
-            "hour": 10,
-            "minute": 10,
-            "lat": 40.7128,
-            "lng": -74.0060,
-            "tz_str": "America/New_York",
-            "city": "New York"
+            "subject": {
+                "name": "person1",
+                "year": 1988,
+                "month": 5,
+                "day": 10,
+                "hour": 10,
+                "minute": 10,
+                "lat": 40.7128,
+                "lng": -74.0060,
+                "tz_str": "America/New_York",
+                "city": "New York"
+            },
+            "transit": {
+                "name": "now",
+                "year": 2024,
+                "month": 5,
+                "day": 22,
+                "hour": 12,
+                "minute": 0,
+                "lat": 40.7128,
+                "lng": -74.0060,
+                "tz_str": "America/New_York",
+                "city": "New York"
+            }
         }
         response = self.app.post('/transit/svg', data=json.dumps(data), content_type='application/json')
-        self.assertEqual(response.status_code, 200)
-
-    def test_transit_report(self):
-        data = {
-            "request_id": "transit_test_1",
-            "user_id": "user_test_1",
-            "name": "person1",
-            "year": 1988,
-            "month": 5,
-            "day": 10,
-            "hour": 10,
-            "minute": 10,
-            "lat": 40.7128,
-            "lng": -74.0060,
-            "tz_str": "America/New_York",
-            "city": "New York"
-        }
-        response = self.app.post('/transit/report', data=json.dumps(data), content_type='application/json')
         self.assertEqual(response.status_code, 200)
 
 if __name__ == '__main__':
