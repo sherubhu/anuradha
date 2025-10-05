@@ -1,0 +1,29 @@
+ * Serving Flask app 'main'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3000
+ * Running on http://10.88.0.3:3000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 629-233-488
+WARNING:root:
+********
+NO GEONAMES USERNAME SET!
+Using the default geonames username is not recommended, please set a custom one!
+You can get one for free here:
+https://www.geonames.org/login
+Keep in mind that the default username is limited to 2000 requests per hour and is shared with everyone else using this library.
+********
+WARNING:root:
+********
+NO GEONAMES USERNAME SET!
+Using the default geonames username is not recommended, please set a custom one!
+You can get one for free here:
+https://www.geonames.org/login
+Keep in mind that the default username is limited to 2000 requests per hour and is shared with everyone else using this library.
+********
+SVG Generated Correctly in: /home/user/Person A - Transit Chart.svg
+127.0.0.1 - - [05/Oct/2025 09:22:06] "POST /transit/svg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Oct/2025 09:22:06] "POST /transit/svg HTTP/1.1" 200 -

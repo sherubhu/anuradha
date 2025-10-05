@@ -2,9 +2,9 @@
 from kerykeion import AstrologicalSubject, KerykeionChartSVG
 from kerykeion.aspects.synastry_aspects import SynastryAspects as Synastry
 
-def generate_synastry_svg(person1_data, person2_data, request_id, user_id):
+def generate_synastry_svg(person1_data, person2_data):
     """
-    Generates a synastry chart SVG and saves it to the charts directory.
+    Generates a synastry chart SVG and returns the SVG content.
     """
     p1_zodiac_type = person1_data.get('zodiac_type', 'Tropic')
     p1_sidereal_mode = person1_data.get('sidereal_mode')
@@ -49,11 +49,7 @@ def generate_synastry_svg(person1_data, person2_data, request_id, user_id):
     synastry_chart = KerykeionChartSVG(person1, "Synastry", person2)
     synastry_chart.makeSVG()
 
-    # Save the SVG to a file
-    file_name = f"synastry_{request_id}_{user_id}.svg"
-    file_path = f"charts/{file_name}"
-    with open(file_path, "w") as f:
-        f.write(synastry_chart.template)
+    return synastry_chart.template
 
 def generate_synastry_report(person1_data, person2_data, request_id, user_id):
     """

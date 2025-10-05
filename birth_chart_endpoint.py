@@ -1,5 +1,6 @@
 
 import os
+import base64
 from flask import Blueprint, request, jsonify
 from birth_chart_kerykeion import generate_birth_report, generate_birth_svg
 
@@ -47,8 +48,6 @@ def create_birth_report():
 def create_birth_svg():
     data = request.get_json()
     try:
-        request_id = data['request_id']
-        user_id = data['user_id']
         name = data['name']
         year = data['year']
         month = data['month']
@@ -65,8 +64,10 @@ def create_birth_svg():
     zodiac_type = data.get('zodiac_type', 'Tropic')
     sidereal_mode = data.get('sidereal_mode')
 
-    generate_birth_svg(
-        request_id, user_id, name, year, month, day, hour, minute, lng, lat, tz_str, city, zodiac_type, sidereal_mode
+    svg_content = generate_birth_svg(
+        name, year, month, day, hour, minute, lng, lat, tz_str, city, zodiac_type, sidereal_mode
     )
 
-    return jsonify({'message': f'Birth chart for {name} created successfully.'})
+    svg_base64 = base64.b64encode(svg_content.encode('utf-8')).decode('utf-8')
+
+    return jsonify({'svg': svg_base64})

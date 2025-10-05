@@ -1,4 +1,5 @@
 
+import base64
 from flask import Blueprint, request, jsonify
 from synastry import generate_synastry_svg, generate_synastry_report
 
@@ -8,16 +9,15 @@ synastry_bp = Blueprint('synastry', __name__)
 def create_synastry_chart():
     data = request.get_json()
     try:
-        request_id = data['request_id']
-        user_id = data['user_id']
         person1_data = data['person1']
         person2_data = data['person2']
     except (KeyError, ValueError) as e:
         return jsonify({'error': f'Missing or invalid parameter: {e}'}), 400
 
     try:
-        generate_synastry_svg(person1_data, person2_data, request_id, user_id)
-        return jsonify({"message": "Synastry chart created successfully."}), 200
+        svg_content = generate_synastry_svg(person1_data, person2_data)
+        svg_base64 = base64.b64encode(svg_content.encode('utf-8')).decode('utf-8')
+        return jsonify({"svg": svg_base64}), 200
     except Exception as e:
         return jsonify({'error': str(e)}), 500
 

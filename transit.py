@@ -1,9 +1,9 @@
 
 from kerykeion import AstrologicalSubject, KerykeionChartSVG
 
-def generate_transit_svg(subject_data, transit_data, request_id, user_id):
+def generate_transit_svg(subject_data, transit_data):
     """
-    Generates a transit chart SVG and saves it to the charts directory.
+    Generates a transit chart SVG and returns the SVG content.
     """
     subject_zodiac_type = subject_data.get('zodiac_type', 'Tropic')
     subject_sidereal_mode = subject_data.get('sidereal_mode')
@@ -48,8 +48,4 @@ def generate_transit_svg(subject_data, transit_data, request_id, user_id):
     transit_chart = KerykeionChartSVG(subject, "Transit", transit)
     transit_chart.makeSVG()
 
-    # Save the SVG to a file
-    file_name = f"transit_{request_id}_{user_id}.svg"
-    file_path = f"charts/{file_name}"
-    with open(file_path, "w") as f:
-        f.write(transit_chart.template)
+    return transit_chart.template

@@ -25,9 +25,9 @@ def generate_birth_report(name, year, month, day, hour, minute, lng, lat, tz_str
     report = Report(subject)
     return report.get_full_report()
 
-def generate_birth_svg(request_id, user_id, name, year, month, day, hour, minute, lng, lat, tz_str, city, zodiac_type="Tropic", sidereal_mode=None):
+def generate_birth_svg(name, year, month, day, hour, minute, lng, lat, tz_str, city, zodiac_type="Tropic", sidereal_mode=None):
     """
-    Generates a birth chart SVG and saves it to the charts directory.
+    Generates a birth chart SVG and returns the SVG content.
     """
     subject_args = {
         'name': name,
@@ -49,6 +49,4 @@ def generate_birth_svg(request_id, user_id, name, year, month, day, hour, minute
     chart = KerykeionChartSVG(subject)
     chart.makeSVG()
 
-    # Save the SVG to a file
-    with open(f"charts/{request_id}_{user_id}_birth_chart.svg", "w") as f:
-        f.write(chart.template)
+    return chart.template
